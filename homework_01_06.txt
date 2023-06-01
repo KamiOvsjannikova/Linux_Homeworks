@@ -1,0 +1,25 @@
+   0 mkdir -p /home/user/start && touch /home/user/start/1.txt
+   1 ls
+   2 cd
+   3 cd ..
+   4 cd /home/user/start
+   5 echo "Start" >> 1.txt
+   6 cat 1.txt
+   7 date +'%D' >> 1.txt
+   8 cat 1.txt
+   9 cd ..
+  10 ls
+  11 mkdir /opt/task
+  12 ls
+  13 clear
+  14 cp /home/user/start/1.txt /opt/task/start.txt
+  15 ls
+  16 pwd
+  17 cd /opt/task
+  18 ls
+  19 cat start.txt
+  20 cd ..
+  21 ls -la / | tail -4 >> /opt/task/start.txt
+  22 cat /opt/task/start.txt
+  23 history
+  24 history > homework_01_06.txt
