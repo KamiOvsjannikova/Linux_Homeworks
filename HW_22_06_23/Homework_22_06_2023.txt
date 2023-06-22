@@ -1,0 +1,10 @@
+
+#!/bin/bash
+
+USER=$(whoami)
+
+date
+
+echo "hello $USER!"
+
+echo "you are on the directory $(pwd)"
