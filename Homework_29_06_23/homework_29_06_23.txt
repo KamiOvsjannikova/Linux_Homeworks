@@ -10,7 +10,6 @@
    9 cat /etc/os-release | grep NAME
   10 cat /etc/os-release | grep v3.12 | head -1
   11 cat /etc/os-release | grep v3.12 | awk '{print$1}'
-  12 cat /etc/os-release | grep v3.12 | awk '{print$1}' | sed 'PRETTY_NAME="//'
   13 cat /etc/os-release | grep v3.12 | awk '{print$1}' | sed s/'PRETTY_NAME="//'
   14 nano sleeper.sh 
   15 ./sleeper.sh 
